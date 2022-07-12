@@ -4,11 +4,22 @@
   "description": "proyecto tienda de ropa tutorial cypress",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/cypress run"
   },
+  "keywords": [
+    "qa",
+    "automation",
+    "tienda",
+    "de",
+    "ropa"
+  ],
   "author": "Tifany7792",
   "license": "ISC",
   "dependencies": {
     "cypress": "^10.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tifany7792/tiendaDeRopaCypress.git"
   }
 }
