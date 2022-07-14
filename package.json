@@ -4,7 +4,7 @@
   "description": "proyecto tienda de ropa tutorial cypress",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/cypress run"
+    "test": "cypress open --browser chrome --e2e"
   },
   "keywords": [
     "qa",
